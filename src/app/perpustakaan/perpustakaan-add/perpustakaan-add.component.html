@@ -1,0 +1,33 @@
+<h4>Form Tabel Buku</h4>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <!-- Nama -->
+      <div class="form-group row">
+        <label for="inputIsbn" class="col-sm-3 form-control-label">ISBN</label>
+        <div class="col-sm-9">
+          <input type="text" class="form-control" id="inputIsbn">
+        </div>
+      </div>
+
+      <!-- Email -->
+      <div class="form-group row">
+        <label for="inputNamaBuku" class="col-sm-3 form-control-label"> Nama Buku</label>
+        <div class="col-sm-9">
+          <!-- #inputEMail itu id di pasang di teman-add.component.ts -->
+          <input type="text" class="form-control" id="inputNamaBuku">
+        </div>
+      </div>
+
+      <!-- Contact -->
+      <div class="form-group row">
+        <label for="inputQty" class="col-sm-3 form-control-label"> QTY</label>
+        <div class="col-sm-9">
+          <input type="text" class="form-control" id="inputQty">
+        </div>
+      </div>
+      <button type="Add" class="btn btn-success" (click)="tambahPerpus(inputBuku)">Tambah Data</button>
+    </div>
+  </div>
+</div>
